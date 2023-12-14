@@ -36,21 +36,24 @@ body{
     flex-direction: row;
 }
 .hero-left{
-    height: 782px;
-    width: 924px;
+    /* height: 80%; */
+    height: fit-content;
+    width: 70%;
+    padding-bottom: 130px;
     background-color: #F2F2F2;
     border-radius: 0px 0px 40px 0px;
 }
 
 .hero-content{
-    margin-top: 290px;
+    position: relative;
+    margin-top: 16vw;
     margin-left: 160px;
     display: flex;
     flex-direction: column;
 }
 .heading1{
     color: black;
-    font-size: 64px;
+    font-size: 4.7vw;
     font-weight: 700;
     padding-bottom: 24px;
 }
